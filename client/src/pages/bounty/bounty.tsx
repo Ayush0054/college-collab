@@ -24,15 +24,15 @@ function Bounty() {
     <div>
       <div className='bounty-main'>
         <PostBounty />
-        {/* {bounties.map((bounty) => {
+        {bounties.map((bounty) => {
           return (
             <div key={bounty.id}>
               <BountyCard bounty={bounty} />;
             </div>
           );
-        })} */}
+        })}
         <h2 className='Bounties-heading'>Bounties</h2>
-        <BountyCard />
+        {/* <BountyCard /> */}
       </div>
     </div>
   );
